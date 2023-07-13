@@ -10,3 +10,5 @@ router.post('/add-income', addIncome)
       .get('/get-expenses', getExpense)
       .delete('/delete-expense/:id', deleteExpense)
 module.exports = router
+PORT=5000
+MONGO_URL=mongodb+srv://cashpilot:saltispepper@cluster0.nsg5qxd.mongodb.net/?retryWrites=true&w=majority
